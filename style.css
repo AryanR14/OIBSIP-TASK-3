@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost:wght@200;300;400;500&family=Noto+Serif:ital@0;1&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+  background-color: lightblue;
+}
+
+.button{
+  padding: 20px;
+  width: 64px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  color: darkblue;
+  font-weight: bold;
+}
+
+.clear{
+  background-color: lightseagreen;
+}
+
+.operators{
+  background-color: orange;
+}
+
+.row{
+  margin: 6px 0;
+}
+
+.row input{
+  width: 290px;
+  background-color: darkgray;
+  font-size: 19px;
+  margin: 0;
+  padding: 10px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
